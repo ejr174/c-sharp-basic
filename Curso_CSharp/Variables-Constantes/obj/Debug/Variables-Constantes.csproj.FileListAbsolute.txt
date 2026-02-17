@@ -1,0 +1,7 @@
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Variables-Constantes\bin\Debug\Variables-Constantes.exe.config
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Variables-Constantes\bin\Debug\Variables-Constantes.exe
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Variables-Constantes\bin\Debug\Variables-Constantes.pdb
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Variables-Constantes\obj\Debug\Variables-Constantes.csproj.AssemblyReference.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Variables-Constantes\obj\Debug\Variables-Constantes.csproj.CoreCompileInputs.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Variables-Constantes\obj\Debug\Variables-Constantes.exe
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Variables-Constantes\obj\Debug\Variables-Constantes.pdb
