@@ -1,0 +1,7 @@
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Arrays\bin\Debug\Arrays.exe.config
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Arrays\bin\Debug\Arrays.exe
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Arrays\bin\Debug\Arrays.pdb
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Arrays\obj\Debug\Arrays.csproj.AssemblyReference.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Arrays\obj\Debug\Arrays.exe
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Arrays\obj\Debug\Arrays.pdb
