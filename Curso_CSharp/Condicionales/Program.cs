@@ -24,6 +24,28 @@ namespace Condicionales
             {
                 Console.WriteLine("El valor es menor a 10");
             }
+
+
+            // Ejemplo  de condicional Switch
+            Console.Write("Ingrese el dorsal del jugador: ");
+
+            int dorsalJugador = Convert.ToInt16(Console.ReadLine());
+
+            switch (dorsalJugador)
+            {
+                case 1:
+                    Console.WriteLine("El jugador es el portero");
+                        break;
+                case 2:
+                    Console.WriteLine("El jugador es defensa (Ivan Ramiro Cordoba)");
+                    break;
+                case 3:
+                    Console.WriteLine("El jugador tambien es defensa (Yepes)");
+                    break;
+                default:
+                    Console.WriteLine("El jugador es un delantero");
+                    break;
+            }
         }
     }
 }
