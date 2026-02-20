@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Arrays/Arrays.csproj" Id="03fbf9c2-0d0a-4b48-ba27-e80e6c2b8afa" />
+  <Project Path="Condicionales/Condicionales.csproj" Id="a54442c9-8fc5-42ab-b002-2671c5b07c8d" />
   <Project Path="Variables-Constantes/Variables-Constantes.csproj" Id="0ebe7482-2c7f-4f9d-b99a-1886317ab8ac" />
 </Solution>

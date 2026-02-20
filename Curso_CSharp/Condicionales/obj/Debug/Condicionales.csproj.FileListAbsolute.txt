@@ -1,0 +1,7 @@
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Condicionales\bin\Debug\Condicionales.exe.config
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Condicionales\bin\Debug\Condicionales.exe
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Condicionales\bin\Debug\Condicionales.pdb
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Condicionales\obj\Debug\Condicionales.csproj.AssemblyReference.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Condicionales\obj\Debug\Condicionales.csproj.CoreCompileInputs.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Condicionales\obj\Debug\Condicionales.exe
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Condicionales\obj\Debug\Condicionales.pdb
