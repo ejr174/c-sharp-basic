@@ -1,0 +1,17 @@
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\bin\Debug\net10.0-windows\CalcularNotaFinal.exe
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\bin\Debug\net10.0-windows\CalcularNotaFinal.deps.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\bin\Debug\net10.0-windows\CalcularNotaFinal.runtimeconfig.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\bin\Debug\net10.0-windows\CalcularNotaFinal.dll
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\bin\Debug\net10.0-windows\CalcularNotaFinal.pdb
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\CalcularNotaFinal.Form1.resources
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\CalcularNotaFinal.csproj.GenerateResource.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\CalcularNotaFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\CalcularNotaFinal.AssemblyInfoInputs.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\CalcularNotaFinal.AssemblyInfo.cs
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\CalcularNotaFinal.csproj.CoreCompileInputs.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\CalcularNotaFinal.sourcelink.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\CalcularNotaFinal.dll
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\refint\CalcularNotaFinal.dll
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\CalcularNotaFinal.pdb
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\CalcularNotaFinal.genruntimeconfig.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CalcularNotaFinal\obj\Debug\net10.0-windows\ref\CalcularNotaFinal.dll
