@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalcularNotaFinal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a2c098bd8c33c761d3c5775f502ec456043c3d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88c69f98cbbe9f58a96ee662fafe7f9195056c7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalcularNotaFinal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalcularNotaFinal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

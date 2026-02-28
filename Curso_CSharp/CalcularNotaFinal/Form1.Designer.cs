@@ -36,6 +36,7 @@
             txtNota2 = new TextBox();
             txtNota3 = new TextBox();
             btnCalcularNota = new Button();
+            btnParOImpar = new Button();
             SuspendLayout();
             // 
             // lblTitulo
@@ -111,12 +112,24 @@
             btnCalcularNota.UseVisualStyleBackColor = true;
             btnCalcularNota.Click += btnCalcularNota_Click;
             // 
+            // btnParOImpar
+            // 
+            btnParOImpar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnParOImpar.Location = new Point(199, 274);
+            btnParOImpar.Name = "btnParOImpar";
+            btnParOImpar.Size = new Size(131, 23);
+            btnParOImpar.TabIndex = 8;
+            btnParOImpar.Text = "Par o Impar";
+            btnParOImpar.UseVisualStyleBackColor = true;
+            btnParOImpar.Click += btnParOImpar_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(224, 224, 224);
             ClientSize = new Size(353, 422);
+            Controls.Add(btnParOImpar);
             Controls.Add(btnCalcularNota);
             Controls.Add(txtNota3);
             Controls.Add(txtNota2);
@@ -141,5 +154,6 @@
         private TextBox txtNota2;
         private TextBox txtNota3;
         private Button btnCalcularNota;
+        private Button btnParOImpar;
     }
 }
