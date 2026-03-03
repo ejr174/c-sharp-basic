@@ -1,0 +1,17 @@
+
+Bucles DETERMINADOS:
+Son aquellos que se ejecutan un número especifico de veces o hasta que se cumpla una condición determinada.
+
+Entre los bucles determinados se encuentran:
+- For: Se utiliza para ejecutar un bloque de código un número específico de veces. La sintaxis es: for (inicialización; condición; incremento/decremento) { // código a ejecutar }
+- Foreach: Se utiliza para iterar sobre una colección de elementos, como un array o una lista. La sintaxis es: foreach (tipo variable in colección) { // código a ejecutar }
+- Do-While: Se ejecuta al menos una vez, ya que la condición se evalúa después de la ejecución del bloque de código. La sintaxis es: do { // código a ejecutar } while (condición);
+
+Bucles INDETERMINADOS:
+Son aquellos que se ejecutan hasta que se cumpla una condición específica, pero no se sabe de antemano cuántas veces se ejecutarán.
+Entre los bucles indeterminados se encuentran:
+- While: Se ejecuta mientras la condición sea verdadera. La sintaxis es: while (condición) { // código a ejecutar }
+- Do-While: Se ejecuta al menos una vez, ya que la condición se evalúa después de la ejecución del bloque de código. La sintaxis es: do { // código a ejecutar } while (condición);
+- For: Aunque generalmente se utiliza como un bucle determinado, también puede ser utilizado como un bucle indeterminado si la condición de terminación no está claramente definida. Por ejemplo: for (;;) { // código a ejecutar } // Este bucle se ejecutará indefinidamente hasta que se rompa con una declaración break o return.
+Es importante elegir el tipo de bucle adecuado según la situación, ya que cada uno tiene sus propias características y usos específicos.
+
