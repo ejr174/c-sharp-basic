@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Bucles")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("BuclesWhileYDoWhile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a51e68caee7d002bba3994b79dba6e570465deaf")]
-[assembly: System.Reflection.AssemblyProductAttribute("Bucles")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Bucles")]
+[assembly: System.Reflection.AssemblyProductAttribute("BuclesWhileYDoWhile")]
+[assembly: System.Reflection.AssemblyTitleAttribute("BuclesWhileYDoWhile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
