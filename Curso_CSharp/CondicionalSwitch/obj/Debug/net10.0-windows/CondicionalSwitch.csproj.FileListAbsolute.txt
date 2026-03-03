@@ -1,0 +1,17 @@
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\bin\Debug\net10.0-windows\CondicionalSwitch.exe
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\bin\Debug\net10.0-windows\CondicionalSwitch.deps.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\bin\Debug\net10.0-windows\CondicionalSwitch.runtimeconfig.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\bin\Debug\net10.0-windows\CondicionalSwitch.dll
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\bin\Debug\net10.0-windows\CondicionalSwitch.pdb
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\CondicionalSwitch.Form1.resources
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\CondicionalSwitch.csproj.GenerateResource.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\CondicionalSwitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\CondicionalSwitch.AssemblyInfoInputs.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\CondicionalSwitch.AssemblyInfo.cs
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\CondicionalSwitch.csproj.CoreCompileInputs.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\CondicionalSwitch.sourcelink.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\CondicionalSwitch.dll
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\refint\CondicionalSwitch.dll
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\CondicionalSwitch.pdb
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\CondicionalSwitch.genruntimeconfig.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\CondicionalSwitch\obj\Debug\net10.0-windows\ref\CondicionalSwitch.dll
