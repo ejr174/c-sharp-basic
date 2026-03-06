@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "BuscarElementosArray/1.0.0": {
+        "runtime": {
+          "BuscarElementosArray.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BuscarElementosArray/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
