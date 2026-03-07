@@ -1,0 +1,17 @@
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\bin\Debug\net10.0-windows\Funciones.exe
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\bin\Debug\net10.0-windows\Funciones.deps.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\bin\Debug\net10.0-windows\Funciones.runtimeconfig.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\bin\Debug\net10.0-windows\Funciones.dll
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\bin\Debug\net10.0-windows\Funciones.pdb
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\Funciones.Form1.resources
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\Funciones.csproj.GenerateResource.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\Funciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\Funciones.AssemblyInfoInputs.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\Funciones.AssemblyInfo.cs
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\Funciones.csproj.CoreCompileInputs.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\Funciones.sourcelink.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\Funciones.dll
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\refint\Funciones.dll
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\Funciones.pdb
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\Funciones.genruntimeconfig.cache
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Funciones\obj\Debug\net10.0-windows\ref\Funciones.dll
