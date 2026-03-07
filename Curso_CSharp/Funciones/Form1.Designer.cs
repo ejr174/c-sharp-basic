@@ -33,15 +33,16 @@
             lblValor2 = new Label();
             txtValor1 = new TextBox();
             txtValor2 = new TextBox();
+            btnSumar = new Button();
             SuspendLayout();
             // 
             // btnButtonSaludar
             // 
-            btnButtonSaludar.Location = new Point(73, 216);
+            btnButtonSaludar.Location = new Point(32, 264);
             btnButtonSaludar.Name = "btnButtonSaludar";
-            btnButtonSaludar.Size = new Size(75, 23);
+            btnButtonSaludar.Size = new Size(143, 23);
             btnButtonSaludar.TabIndex = 0;
-            btnButtonSaludar.Text = "Sumar";
+            btnButtonSaludar.Text = "Saludar";
             btnButtonSaludar.UseVisualStyleBackColor = true;
             btnButtonSaludar.Click += btnButtonSaludar_Click;
             // 
@@ -81,11 +82,22 @@
             txtValor2.TabIndex = 4;
             txtValor2.TextAlign = HorizontalAlignment.Center;
             // 
+            // btnSumar
+            // 
+            btnSumar.Location = new Point(32, 216);
+            btnSumar.Name = "btnSumar";
+            btnSumar.Size = new Size(143, 23);
+            btnSumar.TabIndex = 5;
+            btnSumar.Text = "Sumar";
+            btnSumar.UseVisualStyleBackColor = true;
+            btnSumar.Click += btnSumar_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(296, 450);
+            Controls.Add(btnSumar);
             Controls.Add(txtValor2);
             Controls.Add(txtValor1);
             Controls.Add(lblValor2);
@@ -104,5 +116,6 @@
         private Label lblValor2;
         private TextBox txtValor1;
         private TextBox txtValor2;
+        private Button btnSumar;
     }
 }
