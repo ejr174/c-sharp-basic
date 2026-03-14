@@ -10,23 +10,24 @@ namespace POO
         private void Form1_Load(object sender, EventArgs e)
         {
             AireAcondicionado aireHyu = new AireAcondicionado();
-            aireHyu.marca = "Hyundai";
-            aireHyu.modelo = "HAC-12CR";
-            aireHyu.color = "Blanco";
-            aireHyu.voltaje = 220;
-            aireHyu.btu = 12000;
-            aireHyu.temperatura = 24;
+            aireHyu.setMarca("Hyundai");
+            aireHyu.setModelo("HAC-12CR");
+            aireHyu.setColor("Blanco");
+            aireHyu.setVoltaje(220);
+            aireHyu.setBtu(12000);
+            aireHyu.setTemperatura(24);
 
             AireAcondicionado aireSams = new AireAcondicionado();
-            aireSams.marca = "Samsung";
-            aireSams.modelo = "AR12TXHZAWKNSL"; 
-            aireSams.color = "Negro";
-            aireSams.voltaje = 220;
-            aireSams.btu = 12000;
-            aireSams.temperatura = 22;
+            aireSams.setMarca("Samsung");
+            aireSams.setModelo("AR12TXHZAWKNSL"); 
+            aireSams.setColor("Negro");
+            aireSams.setVoltaje(220);
+            aireSams.setBtu(12000);
+            aireSams.setTemperatura(22);
 
-            MessageBox.Show($"Marca: {aireHyu.marca}\nModelo: {aireHyu.modelo}\nColor: {aireHyu.color}\nVoltaje: {aireHyu.voltaje}V\nBTU: {aireHyu.btu}\nTemperatura: {aireHyu.temperatura}°C");
-            MessageBox.Show($"Marca: {aireSams.marca}\nModelo: {aireSams.modelo}\nColor: {aireSams.color}\nVoltaje: {aireSams.voltaje}V\nBTU: {aireSams.btu}\nTemperatura: {aireSams.temperatura}°C"); 
+            MessageBox.Show("Modelo del Aire Acondicionado Hyundai: " + aireHyu.getModelo());
+            MessageBox.Show("Modelo del Aire Acondicionado Hyundai: " + aireSams.getModelo());
+
         }
     }
 }
