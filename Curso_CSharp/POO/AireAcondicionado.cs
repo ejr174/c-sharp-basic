@@ -14,6 +14,17 @@ namespace POO
         private int btu;
         private int temperatura;
 
+        // Constructor
+        public AireAcondicionado(string ma, string mo, string co, int vo, int bt, int te)
+        {
+            marca = ma;
+            modelo = mo;
+            color = co;
+            voltaje = vo;
+            btu = bt;
+            temperatura = te;
+        }
+
         // Metodos GET y SET
         public string getMarca() { 
             return marca;
