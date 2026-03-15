@@ -100,7 +100,24 @@ namespace POO
         // Metodos
         public void subirTemperatura() 
         {
-            temperatura +=1;
+            if (temperatura > 30)
+            {
+                temperatura += 1;
+            } 
+        }
+
+        public void subirTemperatura(int grados)
+        {
+            int temperaturaActual = temperatura + grados;
+
+            if (temperaturaActual > 30)
+            {
+                temperatura = 30;
+            }
+            else
+            {
+                temperatura = temperaturaActual;
+            }
         }
 
         public void bajarTemperatura() 
@@ -108,10 +125,27 @@ namespace POO
             temperatura -= 1;
         }
 
+        public void bajarTemperatura(int grados)
+        {
+            int temperaturaActual = temperatura + grados;
+
+            if (temperaturaActual < 16)
+            {
+                temperatura = 16;
+            }
+            else
+            {
+                temperatura = temperaturaActual;
+            }
+        }
+
+
         public int darTemperatura() 
         {
             return temperatura;
         }
+
+
         
     }
 }
