@@ -12,6 +12,8 @@ namespace POO
             AireAcondicionado aireHyu = new AireAcondicionado("Hyundai-Ejemplo", "HAC-1CR7-Ejemplo", "Verde", 200, 1000, 20);
             MessageBox.Show("Marca inicial del aire: " + aireHyu.getMarca() + "Modelo modelo del Aire Acondicionado Hyundai: " + aireHyu.getModelo());
 
+            AireAcondicionado aireEjemplo = new AireAcondicionado("MARCA-EJEMPLO", "MODELO-EJEMPLO"); // Sobre carga constructor
+
             aireHyu.setMarca("Hyundai");
             aireHyu.setModelo("HAC-12CR");
             aireHyu.setColor("Blanco");

@@ -15,6 +15,17 @@ namespace POO
         private int temperatura;
 
         // Constructor
+        public AireAcondicionado()
+        {
+
+        }
+
+        public AireAcondicionado(string ma, string mo)
+        {
+            marca = ma;
+            modelo = mo;
+        }
+
         public AireAcondicionado(string ma, string mo, string co, int vo, int bt, int te)
         {
             marca = ma;
