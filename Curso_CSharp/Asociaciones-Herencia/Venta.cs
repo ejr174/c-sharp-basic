@@ -15,10 +15,12 @@ namespace Asociaciones_Herencia
         private Fecha fecha;
 
         // Constructor
-        public Venta(int numeroVenta, double total)
+        public Venta(int numeroVenta, double total, Cliente cl, Fecha fch)
         {
             this.numeroVenta = numeroVenta;
             this.total = total;
+            this.cliente = cl;
+            this.fecha = fch;
         }
 
         // Metodos GET y SET
