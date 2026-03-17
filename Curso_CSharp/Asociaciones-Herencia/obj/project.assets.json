@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\POO\\POO.csproj",
-      "projectName": "POO",
-      "projectPath": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\POO\\POO.csproj",
+      "projectUniqueName": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\Asociaciones-Herencia\\Asociaciones-Herencia.csproj",
+      "projectName": "Asociaciones-Herencia",
+      "projectPath": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\Asociaciones-Herencia\\Asociaciones-Herencia.csproj",
       "packagesPath": "C:\\Users\\ejaramillor\\.nuget\\packages\\",
-      "outputPath": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\POO\\obj\\",
+      "outputPath": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\Asociaciones-Herencia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
