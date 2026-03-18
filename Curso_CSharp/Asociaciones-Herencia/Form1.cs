@@ -2,6 +2,8 @@ namespace Asociaciones_Herencia
 {
     public partial class Form1 : Form
     {
+        private Almacen almacen = new Almacen();
+
         public Form1()
         {
             InitializeComponent();
@@ -10,16 +12,34 @@ namespace Asociaciones_Herencia
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            Cliente cliente1 = new Cliente("Enrique", "Gonzales", "001", "5434566");
-            Fecha fecha1 = new Fecha(05,05,1996);
+        }
 
-            //Atributos  de tipo objeto
-            Venta venta1 = new Venta(1,15000, cliente1,fecha1);
+        private void btnCrearVenta_Click(object sender, EventArgs e)
+        {
+           // validarCampos();
 
+            Cliente cl = new Cliente("Emmaunel", "Jaramillo Resrepo", "123", "300556676");
 
-            Venta venta2 = new Venta(2, 20000, new Cliente("Maria", "Restrepo", "002", "2134342"), new Fecha(10, 10, 2020));
+            DateTime fecha = DateTime.Now;
+            int day = fecha.Day;
+            int month = fecha.Month;
+            int year = fecha.Year;  
 
-            MessageBox.Show("Num Venta 1: " + venta1.getNumeroVenta() + " - " + "Total: " + venta1.getTotal() + " - " + "Cliente: " + venta1.getCliente().getNombre() + " - " + venta1.getFecha().getDia() + "/" + venta1.getFecha().getMes() + "/" + venta1.getFecha().getAnio());
+            Fecha fch = new Fecha(day, month, year);
+
+            almacen.crearVenta(2500, cl, fch);
+
+        }
+        
+        public void validarCampos()
+        {
+                if (string.IsNullOrEmpty(label1.Text) || string.IsNullOrEmpty(label2.Text))
+                {
+                    MessageBox.Show("Por favor, complete todos los campos antes de crear la venta.");
+                    return;
+                }
+
+            // Aquí puedes agregar más validaciones según sea necesario
         }
     }
 }
