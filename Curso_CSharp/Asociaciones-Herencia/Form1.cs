@@ -33,7 +33,7 @@ namespace Asociaciones_Herencia
         
         public void validarCampos()
         {
-                if (string.IsNullOrEmpty(label1.Text) || string.IsNullOrEmpty(label2.Text))
+                if (string.IsNullOrEmpty(lblTitulo.Text) || string.IsNullOrEmpty(lblNombres.Text))
                 {
                     MessageBox.Show("Por favor, complete todos los campos antes de crear la venta.");
                     return;
