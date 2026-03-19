@@ -41,6 +41,7 @@
             txtTotalVenta = new TextBox();
             label1 = new Label();
             lblMensajes = new Label();
+            btnLimpiarCampos = new Button();
             SuspendLayout();
             // 
             // lblTitulo
@@ -158,11 +159,22 @@
             lblMensajes.TabIndex = 12;
             lblMensajes.Text = "...";
             // 
+            // btnLimpiarCampos
+            // 
+            btnLimpiarCampos.Location = new Point(62, 467);
+            btnLimpiarCampos.Name = "btnLimpiarCampos";
+            btnLimpiarCampos.Size = new Size(124, 23);
+            btnLimpiarCampos.TabIndex = 13;
+            btnLimpiarCampos.Text = "Limpiar campos";
+            btnLimpiarCampos.UseVisualStyleBackColor = true;
+            btnLimpiarCampos.Click += btnLimpiarCampos_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(267, 450);
+            ClientSize = new Size(267, 534);
+            Controls.Add(btnLimpiarCampos);
             Controls.Add(lblMensajes);
             Controls.Add(txtTotalVenta);
             Controls.Add(label1);
@@ -198,5 +210,6 @@
         private TextBox txtTotalVenta;
         private Label label1;
         private Label lblMensajes;
+        private Button btnLimpiarCampos;
     }
 }

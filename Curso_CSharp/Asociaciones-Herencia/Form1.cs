@@ -13,7 +13,7 @@ namespace Asociaciones_Herencia
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            lblMensajes.Visible = false; // Ocultamos el label de mensajes al cargar el formulario
         }
 
         private void btnCrearVenta_Click(object sender, EventArgs e)
@@ -84,6 +84,11 @@ namespace Asociaciones_Herencia
 
             errorProvider.Clear();
             lblMensajes.Visible = false;
+        }
+
+        private void btnLimpiarCampos_Click(object sender, EventArgs e)
+        {
+            LimpiarCampos();
         }
     }
 }
