@@ -3,6 +3,7 @@ namespace Asociaciones_Herencia
     public partial class Form1 : Form
     {
         private Almacen almacen = new Almacen();
+        // Instanciar el ErrorProvider aquí está bien, pero asegúrate de que esté configurado en el diseñador
         private ErrorProvider errorProvider = new ErrorProvider();
 
         public Form1()
@@ -12,98 +13,77 @@ namespace Asociaciones_Herencia
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            lblMensajes.Visible = false;
+            
         }
 
         private void btnCrearVenta_Click(object sender, EventArgs e)
         {
-            bool camposValidos = validarCampos();
+            if (!ValidarFormulario()) return;
 
-            if (!camposValidos)
-            {
-                return;
-            }
+            // 1. Creación directa del cliente
+            var cliente = new Cliente(txtNombres.Text, txtApellidos.Text, txtNumId.Text, txtCelular.Text);
 
-            Cliente cl = new Cliente(txtNombres.Text, txtApellidos.Text, txtNumId.Text, txtCelular.Text);
+            // 2. Simplificación de la fecha
+            DateTime ahora = DateTime.Now;
+            var fechaVenta = new Fecha(ahora.Day, ahora.Month, ahora.Year);
 
-            DateTime fecha = DateTime.Now;
-            int day = fecha.Day;
-            int month = fecha.Month;
-            int year = fecha.Year;
+            // 3. Proceso de venta
+            almacen.crearVenta(2500, cliente, fechaVenta);
 
-            Fecha fch = new Fecha(day, month, year);
-
-            almacen.crearVenta(2500, cl, fch);
-
-            limpiarCampos();
-
-            lblMensajes.Text = "Venta creada exitosamente.";
-            lblMensajes.ForeColor = Color.Green;
-            lblMensajes.Visible = true;
-
+            // 4. Feedback final
+            LimpiarCampos();
+            MostrarMensajeExito("Venta creada exitosamente.");
         }
 
+        // --- MÉTODOS DE APOYO (REUTILIZABLES) ---
 
-        public bool validarCampos()
+        private bool ValidarFormulario()
         {
-            lblMensajes.Visible = false;
             errorProvider.Clear();
+            lblMensajes.Visible = false;
 
-            string mensaje = "";
-
-            if (string.IsNullOrWhiteSpace(txtNombres.Text))
-            {
-                mensaje = "El campo de nombres no puede estar vacío.";
-                MostrarError(mensaje);
-                errorProvider.SetError(txtNombres, mensaje);
-                return false;
-            }
-
-            if (string.IsNullOrWhiteSpace(txtApellidos.Text))
-            {
-                mensaje = "El campo de apellidos no puede estar vacío.";
-                MostrarError(mensaje);
-                errorProvider.SetError(txtApellidos, mensaje);
-                return false;
-            }
-
-            if (string.IsNullOrWhiteSpace(txtNumId.Text))
-            {   
-                mensaje = "El campo de número de NumId no puede estar vacío.";
-                MostrarError(mensaje);
-                errorProvider.SetError(txtNumId, mensaje);
-                return false;
-            }
-            if (string.IsNullOrWhiteSpace(txtCelular.Text)) 
-            {
-                mensaje = "El campo de Celular no puede estar vacío.";
-                MostrarError(mensaje);
-                errorProvider.SetError(txtCelular, mensaje);
-                return false;
-            }
+            // Validamos uno a uno. Si uno falla, el método retorna false de inmediato.
+            // Esto es mucho más limpio y fácil de leer.
+            if (!ValidarCampo(txtNombres, "El nombre es obligatorio")) return false;
+            if (!ValidarCampo(txtApellidos, "El apellido es obligatorio")) return false;
+            if (!ValidarCampo(txtNumId, "La identificación es obligatoria")) return false;
+            if (!ValidarCampo(txtCelular, "El celular es obligatorio")) return false;
+            if (!ValidarCampo(txtTotalVenta, "El total de la venta es obligatorio")) return false;
 
             return true;
-
         }
 
-        private void MostrarError(string mensaje)
+        private bool ValidarCampo(TextBox campo, string mensaje)
+        {
+            if (string.IsNullOrWhiteSpace(campo.Text))
+            {
+                errorProvider.SetError(campo, mensaje);
+                lblMensajes.Text = mensaje;
+                lblMensajes.ForeColor = Color.Red;
+                lblMensajes.Visible = true;
+                campo.Focus(); // Pone el cursor en el campo que falló (Buen UX)
+                return false;
+            }
+            return true;
+        }
+
+        private void MostrarMensajeExito(string mensaje)
         {
             lblMensajes.Text = mensaje;
+            lblMensajes.ForeColor = Color.Green;
             lblMensajes.Visible = true;
-            lblMensajes.ForeColor = Color.Red;
         }
 
-        public void limpiarCampos()
+        public void LimpiarCampos()
         {
-            txtApellidos.Text = string.Empty;
-            txtNombres.Text = string.Empty;
-            txtNumId.Text = string.Empty;
-            txtCelular.Text = string.Empty;
-            lblMensajes.Visible = false;
+            // En lugar de uno por uno, puedes limpiar todos los TextBox del formulario
+            foreach (Control c in this.Controls)
+            {
+                if (c is TextBox) c.Text = string.Empty;
+            }
 
             errorProvider.Clear();
-
-            if (lblMensajes != null) lblMensajes.Visible = false;
+            lblMensajes.Visible = false;
         }
     }
 }

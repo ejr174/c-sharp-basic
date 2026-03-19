@@ -1,8 +1,3 @@
-C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\bin\Debug\net10.0-windows\Asociaciones-Herencia.exe
-C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\bin\Debug\net10.0-windows\Asociaciones-Herencia.deps.json
-C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\bin\Debug\net10.0-windows\Asociaciones-Herencia.runtimeconfig.json
-C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\bin\Debug\net10.0-windows\Asociaciones-Herencia.dll
-C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\bin\Debug\net10.0-windows\Asociaciones-Herencia.pdb
 C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\obj\Debug\net10.0-windows\Asociaciones_Herencia.Form1.resources
 C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\obj\Debug\net10.0-windows\Asociaciones-Herencia.csproj.GenerateResource.cache
 C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\obj\Debug\net10.0-windows\Asociaciones-Herencia.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,6 +5,11 @@ C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\obj\Debug\net10.0
 C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\obj\Debug\net10.0-windows\Asociaciones-Herencia.AssemblyInfo.cs
 C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\obj\Debug\net10.0-windows\Asociaciones-Herencia.csproj.CoreCompileInputs.cache
 C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\obj\Debug\net10.0-windows\Asociaciones-Herencia.sourcelink.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\bin\Debug\net10.0-windows\Asociaciones-Herencia.exe
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\bin\Debug\net10.0-windows\Asociaciones-Herencia.deps.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\bin\Debug\net10.0-windows\Asociaciones-Herencia.runtimeconfig.json
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\bin\Debug\net10.0-windows\Asociaciones-Herencia.dll
+C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\bin\Debug\net10.0-windows\Asociaciones-Herencia.pdb
 C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\obj\Debug\net10.0-windows\Asociaciones-Herencia.dll
 C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\obj\Debug\net10.0-windows\refint\Asociaciones-Herencia.dll
 C:\02 - APRENDIZAJE\2025\C#\Curso_CSharp\Asociaciones-Herencia\obj\Debug\net10.0-windows\Asociaciones-Herencia.pdb
