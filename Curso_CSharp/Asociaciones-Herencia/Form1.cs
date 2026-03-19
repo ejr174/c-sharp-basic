@@ -18,6 +18,9 @@ namespace Asociaciones_Herencia
 
         private void btnCrearVenta_Click(object sender, EventArgs e)
         {
+            lblMensajes.Text = "";
+            lblMensajes.Visible = false;
+
             if (!ValidarFormulario()) return;
 
             // 1. Creación directa del cliente
@@ -33,6 +36,10 @@ namespace Asociaciones_Herencia
             // 4. Feedback final
             LimpiarCampos();
             MostrarMensajeExito("Venta creada exitosamente.");
+
+            Venta ventaCreada = almacen.getUltimaVenta();
+
+            MessageBox.Show("La venta guardad fue de " + ventaCreada.getTotal() + " y el cliente fue " + ventaCreada.getCliente().getNombre() + " " + ventaCreada.getCliente().getApellidos(), "Venta Creada", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         // --- MÉTODOS DE APOYO (REUTILIZABLES) ---

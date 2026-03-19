@@ -7,23 +7,24 @@ namespace Asociaciones_Herencia
     internal class Almacen
     {
         // Asociacion con la cls Venta
-        private Venta[] venta = new Venta[2];
+        private Venta[] ventas = new Venta[2];
 
         // Constructor
         public Almacen()
         {
-            venta = new Venta[2];
+            ventas = new Venta[2];
         }
 
-        public void crearVenta(double totalVenta, Cliente clienteVenta, Fecha fechaVenta) {
+        public void crearVenta(double totalVenta, Cliente clienteVenta, Fecha fechaVenta)
+        {
             bool ventaExistente = false;
 
-            for (int i = 0; i < venta.Length; i++)
+            for (int i = 0; i < ventas.Length; i++)
             {
 
-                if (venta[i] == null)
+                if (ventas[i] == null)
                 {
-                    venta[i] = new Venta(i + 1, totalVenta, clienteVenta, fechaVenta);
+                    ventas[i] = new Venta(i + 1, totalVenta, clienteVenta, fechaVenta);
 
                     ventaExistente = true;
                 }
@@ -41,5 +42,24 @@ namespace Asociaciones_Herencia
                 MessageBox.Show("No se pudo registrar la venta. Almacen lleno.");
             }
         }
+
+        public Venta getUltimaVenta()
+        {
+            Venta venta = null;
+
+            if (ventas[0] != null)
+            {
+                for(int i = 0; i < ventas.Length; i++)
+                {
+                    if (ventas[i] == null)
+                    {
+                        venta = ventas[i-1];
+                        break;
+                    }
+                }
+            }
+
+            return venta;
+        }    
     }
 }

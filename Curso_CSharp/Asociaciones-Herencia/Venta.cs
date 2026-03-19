@@ -60,5 +60,6 @@ namespace Asociaciones_Herencia
         {
             this.fecha = fecha;
         }
+
     }
 }
