@@ -40,6 +40,7 @@
             lblCelular = new Label();
             txtTotalVenta = new TextBox();
             label1 = new Label();
+            lblMensajes = new Label();
             SuspendLayout();
             // 
             // lblTitulo
@@ -64,7 +65,7 @@
             // 
             // btnCrearVenta
             // 
-            btnCrearVenta.Location = new Point(59, 358);
+            btnCrearVenta.Location = new Point(62, 400);
             btnCrearVenta.Name = "btnCrearVenta";
             btnCrearVenta.Size = new Size(124, 38);
             btnCrearVenta.TabIndex = 2;
@@ -148,11 +149,21 @@
             label1.TabIndex = 10;
             label1.Text = "Total Venta";
             // 
+            // lblMensajes
+            // 
+            lblMensajes.AutoSize = true;
+            lblMensajes.Location = new Point(12, 355);
+            lblMensajes.Name = "lblMensajes";
+            lblMensajes.Size = new Size(16, 15);
+            lblMensajes.TabIndex = 12;
+            lblMensajes.Text = "...";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(267, 450);
+            Controls.Add(lblMensajes);
             Controls.Add(txtTotalVenta);
             Controls.Add(label1);
             Controls.Add(txtCelular);
@@ -186,5 +197,6 @@
         private Label lblCelular;
         private TextBox txtTotalVenta;
         private Label label1;
+        private Label lblMensajes;
     }
 }
