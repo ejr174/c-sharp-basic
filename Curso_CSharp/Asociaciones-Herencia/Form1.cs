@@ -3,6 +3,7 @@ namespace Asociaciones_Herencia
     public partial class Form1 : Form
     {
         private Almacen almacen = new Almacen();
+        private ErrorProvider errorProvider = new ErrorProvider();
 
         public Form1()
         {
@@ -46,27 +47,38 @@ namespace Asociaciones_Herencia
         public bool validarCampos()
         {
             lblMensajes.Visible = false;
+            errorProvider.Clear();
 
-            if (string.IsNullOrWhiteSpace(txtApellidos.Text))
-            {
-                MostrarError("El campo de apellidos no puede estar vacío.");
-                return false;
-            }
+            string mensaje = "";
 
             if (string.IsNullOrWhiteSpace(txtNombres.Text))
             {
-                MostrarError("El campo de nombres no puede estar vacío.");
+                mensaje = "El campo de nombres no puede estar vacío.";
+                MostrarError(mensaje);
+                errorProvider.SetError(txtNombres, mensaje);
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtApellidos.Text))
+            {
+                mensaje = "El campo de apellidos no puede estar vacío.";
+                MostrarError(mensaje);
+                errorProvider.SetError(txtApellidos, mensaje);
                 return false;
             }
 
             if (string.IsNullOrWhiteSpace(txtNumId.Text))
-            {
-                MostrarError("El campo de NumId no puede estar vacío.");
+            {   
+                mensaje = "El campo de número de NumId no puede estar vacío.";
+                MostrarError(mensaje);
+                errorProvider.SetError(txtNumId, mensaje);
                 return false;
             }
             if (string.IsNullOrWhiteSpace(txtCelular.Text)) 
             {
-                MostrarError("El campo de Celukar no puede estar vacío.");
+                mensaje = "El campo de Celular no puede estar vacío.";
+                MostrarError(mensaje);
+                errorProvider.SetError(txtCelular, mensaje);
                 return false;
             }
 
@@ -88,6 +100,10 @@ namespace Asociaciones_Herencia
             txtNumId.Text = string.Empty;
             txtCelular.Text = string.Empty;
             lblMensajes.Visible = false;
+
+            errorProvider.Clear();
+
+            if (lblMensajes != null) lblMensajes.Visible = false;
         }
     }
 }
