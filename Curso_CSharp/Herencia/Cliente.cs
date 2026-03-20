@@ -19,5 +19,10 @@ namespace Herencia
         public string getPuntos() { return puntos.ToString(); }
 
         public void setPuntos(int puntos) { this.puntos = puntos; }
+
+        public override void getInfo()
+        {
+            MessageBox.Show("Nombre: " + getNombres() + " " + getApellidos() + "\nNúmero de ID: " + getNumId() + "\nDirección: " + getDireccion() + "\nTeléfono: " + getTelefono() + "\nPuntos: " + puntos);
+        }
     }
 }

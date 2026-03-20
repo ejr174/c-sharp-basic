@@ -33,5 +33,10 @@ namespace Herencia
         public string getDireccion() { return direccion; }
 
         public string getTelefono() { return telefono; }
+
+        public virtual void getInfo()
+        {
+            MessageBox.Show($"Nombre: {nombres} {apellidos}\nNúmero de ID: {numId}\nDirección: {direccion}\nTeléfono: {telefono}");
+        }
     }
 }

@@ -20,5 +20,10 @@ namespace Herencia
         public string getSalario() { return salario.ToString(); }
 
         public void setSalario(double salario) { this.salario = salario; }
+
+        public override void getInfo()
+        {
+            MessageBox.Show("Nombre: " + getNombres() + " " + getApellidos() + "\nNúmero de ID: " + getNumId() + "\nDirección: " + getDireccion() + "\nTeléfono: " + getTelefono() + "\nSalario: " + salario);
+        }
     }
 }
