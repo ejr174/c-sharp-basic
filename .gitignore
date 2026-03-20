@@ -1,1 +1,6 @@
+# Build results (Archivos de compilación)
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio folder (Archivos de configuración local)
 .vs/
