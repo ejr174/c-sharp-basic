@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\Asociaciones-Herencia\\Asociaciones-Herencia.csproj",
-      "projectName": "Asociaciones-Herencia",
-      "projectPath": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\Asociaciones-Herencia\\Asociaciones-Herencia.csproj",
+      "projectUniqueName": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\Asociaciones-Herencia\\Asociaciones-Relaciones.csproj",
+      "projectName": "Asociaciones-Relaciones",
+      "projectPath": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\Asociaciones-Herencia\\Asociaciones-Relaciones.csproj",
       "packagesPath": "C:\\Users\\ejaramillor\\.nuget\\packages\\",
       "outputPath": "C:\\02 - APRENDIZAJE\\2025\\C#\\Curso_CSharp\\Asociaciones-Herencia\\obj\\",
       "projectStyle": "PackageReference",
