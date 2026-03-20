@@ -1,6 +1,38 @@
-# Build results (Archivos de compilación)
+# ==========================================
+# Plantilla .gitignore para C# / .NET / VS
+# ==========================================
+
+# Carpetas de compilación y resultados 
 [Bb]in/
 [Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
 
-# Visual Studio folder (Archivos de configuración local)
+# Archivos de configuración local y cachés de Visual Studio
 .vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.rsuser
+
+# Paquetes NuGet (Dependencias descargadas)
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Archivos de publicación
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
