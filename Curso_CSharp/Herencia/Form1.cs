@@ -24,7 +24,18 @@ namespace Herencia
             // Casting
             Cliente clienteSalome = (Cliente) salome;
 
-            clienteSalome.getInfo();
+            //clienteSalome.getInfo();
+
+            // Ejemplo uso de propiedades
+
+            //Escritura
+            client1.NOMBRES = "Emmanuel de Cristiano";
+
+            //Lectura
+            MessageBox.Show( "Lecturaa propiedad NOMBRES = " + client1.NOMBRES );
+
+            
+
 
 
         }

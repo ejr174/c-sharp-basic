@@ -23,6 +23,13 @@ namespace Herencia
             this.telefono = telefono;
         }
 
+        // Propiedades - Property
+        public string NOMBRES
+        {
+            get { return nombres; }
+            set { nombres = value; }
+        }
+
         // Métodos GET
         public string getNombres() {  return nombres; }
 
