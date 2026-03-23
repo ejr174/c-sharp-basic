@@ -13,7 +13,11 @@ namespace Enumerados_Enum
         {
             Cliente cliente1 = new Cliente("Juan", "Pérez", "12345678", "987654321", TipoCliente.Premium);
 
-            MessageBox.Show(cliente1.TIPODECLIENTE.ToString());
+            //MessageBox.Show(cliente1.TIPODECLIENTE.ToString());
+
+            ClaseGenerica<Cliente> cl = new ClaseGenerica<Cliente>(cliente1);
+            
+            MessageBox.Show(cl.getObjeto().NOMBRES);
 
         }
     }
