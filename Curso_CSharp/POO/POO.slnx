@@ -2,6 +2,7 @@
   <Project Path="../Asociaciones-Herencia/Asociaciones-Relaciones.csproj" Id="177ed737-9681-4854-a7e1-576ac837f9c5" />
   <Project Path="../Ejercicio-Interfaces-Desportistas/Ejercicio-Interfaces-Desportistas.csproj" Id="20b7ddab-762c-4dc7-8d85-44429b3bc8f4" />
   <Project Path="../Herencia/Herencia.csproj" Id="e2d3f5c3-0d84-4426-aa24-e121bd234ee0" />
+  <Project Path="../ManejoExcepciones/ManejoExcepciones.csproj" Id="8eb058ea-1eae-416f-8fa6-3e8c86b5ac6f" />
   <Project Path="../UsoStatic/UsoStatic.csproj" Id="c12aa4f1-71a2-4b20-9dd6-15b528186951" />
   <Project Path="POO.csproj" />
 </Solution>
