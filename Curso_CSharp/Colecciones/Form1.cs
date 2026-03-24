@@ -38,31 +38,23 @@ clientes.RemoveAt(3);
 MessageBox.Show("Clientes agregados: " + clientes.Count);
             **/
 
-            /**
-// LinkedList: Maneja una lista enlazada, es decir,
-// cada elemento tiene una referencia al siguiente elemento, lo que permite una inserción y eliminación más eficiente
-// en comparación con List, pero no permite el acceso aleatorio a los elementos.
+           
+            // LinkedList: Maneja una lista enlazada, es decir,
+            // cada elemento tiene una referencia al siguiente elemento, lo que permite una inserción y eliminación más eficiente
+            // en comparación con List, pero no permite el acceso aleatorio a los elementos.
 
 
-LinkedList<Cliente> clientes2 = new LinkedList<Cliente>();
+            LinkedList<Cliente> clientes2 = new LinkedList<Cliente>();
 
-// Agregar elementos al inicio y al final de la lista
-clientes2.AddFirst(new Cliente("Cristiano", "Ronaldo", "1111", "344546556"));
-clientes2.AddLast(new Cliente("Lionel", "Messi", "2222", "344546556"));
+            // Agregar elementos al inicio y al final de la lista
+            clientes2.AddFirst(new Cliente("Cristiano", "Ronaldo", "1111", "344546556"));
+            clientes2.AddLast(new Cliente("Lionel", "Messi", "2222", "344546556"));
 
-// Agregar elementos con un nodo específico: La diferencia con List es que en LinkedList se puede agregar un nodo específico,
-// mientras que en List solo se puede agregar un elemento en una posición específica
-LinkedListNode<Cliente> nodoNeymar = new LinkedListNode<Cliente>(new Cliente("Neymar", "Junior", "3333", "344546556"));
-clientes2.AddLast(nodoNeymar);
-
-
-// Recorrer lista
-
-foreach (Cliente cliente in clientes2)
-{
-                MessageBox.Show("Cliente: " + cliente.Nombres + " " + cliente.Apellidos);
-}
-            **/
+            // Agregar elementos con un nodo específico: La diferencia con List es que en LinkedList se puede agregar un nodo específico,
+            // mientras que en List solo se puede agregar un elemento en una posición específica
+            LinkedListNode<Cliente> nodoNeymar = new LinkedListNode<Cliente>(new Cliente("Neymar", "Junior", "3333", "344546556"));
+            clientes2.AddLast(nodoNeymar);
+          
 
             // Colas - Queues:
             // Maneja una colección de elementos
@@ -75,7 +67,15 @@ foreach (Cliente cliente in clientes2)
 
             clientes3.Dequeue(); // Elimina el primer elemento agregado (Cristiano Ronaldo)
 
-            foreach (Cliente cliente in clientes3)
+            // Stack - Pilas: 
+            Stack<Cliente> clientes4 = new Stack<Cliente>();
+            clientes4.Push(new Cliente("Cristiano", "Ronaldo", "1111", "344546556"));
+            clientes4.Push(new Cliente("Lionel", "Messi", "2222", "344546556"));
+            clientes4.Push(new Cliente("Neymar", "Junior", "3333", "344546556"));
+
+            clientes4.Pop(); // Elimina el último elemento agregado (Neymar Junior)
+
+            foreach (Cliente cliente in clientes4)
             {
                 MessageBox.Show("Cliente: " + cliente.Nombres + " " + cliente.Apellidos);
             }
