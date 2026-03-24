@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="../Asociaciones-Herencia/Asociaciones-Relaciones.csproj" Id="177ed737-9681-4854-a7e1-576ac837f9c5" />
+  <Project Path="../Colecciones/Colecciones.csproj" Id="0cd3d76f-87af-4ebc-a045-19908e538905" />
   <Project Path="../Ejercicio-Interfaces-Desportistas/Ejercicio-Interfaces-Desportistas.csproj" Id="20b7ddab-762c-4dc7-8d85-44429b3bc8f4" />
   <Project Path="../Enumerados-Enum/Enumerados-Enum.csproj" Id="4182d798-10ed-467d-be6e-ef29b7b306e2" />
   <Project Path="../Herencia/Herencia.csproj" Id="e2d3f5c3-0d84-4426-aa24-e121bd234ee0" />
