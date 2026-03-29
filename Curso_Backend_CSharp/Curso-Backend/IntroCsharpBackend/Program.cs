@@ -1,71 +1,49 @@
 ﻿
-/**
- * CLASES Y OBJETOS
- * CLASE: Es una plantailla o molde que define las caracteterísticas y comportamientos comunes de un conjunto de objetos.
- * OBJETO : Es una intancia de una clase, es decir, un ejemplar concreto que posee las características y comportamientos definidos por la clase.
- * 
- * */
+// Genericos: Podemos utilizar genéricos para crear clases o métodos
+// que puedan trabajar con diferentes tipos de datos sin necesidad de duplicar código.
 
-// Formas de crear objetos en C# a partir de una clase:
-Persona persona1 = new Persona("Emmanuel");
-Persona persona2 = new Persona("Cristiano");
-var personaje1 = new PersonajeItachi("Itachi","Sharingan");
+var personajes = new MyList<string>(3);
+var numeros = new MyList<int>(3);
 
-persona1.Nombre = "Cristiano";
-var messagePersona = persona1.Saludar();
-Console.WriteLine(messagePersona);
+personajes.AddElement("Mario");
+personajes.AddElement("Luigi");
+personajes.AddElement("Peach");
+//personajes.AddElement("Bowser"); // No se puede agregar, límite alcanzado
 
-Console.WriteLine(personaje1.Nombre); // Esta propiedad solo tiene un getter, por lo que no se puede modificar desde fuera de la clase, solo se puede asignar en el constructor.
-//personaje1.Nombre = "Sasuke"; // Esto generará un error de compilación, ya que la propiedad Nombre no tiene un setter público.
-var messagePersonaje = personaje1.MostrarPoder();
-Console.WriteLine(messagePersonaje);
-Console.WriteLine(personaje1.Saludar());
-Console.WriteLine(personaje1.Saludar("JAJAJAJ! "));
+Console.WriteLine(personajes.GetContent());
 
-
-class Persona 
+public class MyList<T>
 {
-    public string Nombre { get; set; }
-    private int Edad { get; set; }
+    private List<T> _list;
+    private int _limit;
 
-    public Persona(string nombre) {
-        this.Nombre = nombre;
-        Edad = 0;
-    }
-
-    public virtual string Saludar() {
-        return "Hola, soy tu amigo " + this.Nombre + "!";
-    }
-}
-// Interfaces: Podemos implementar una interfaz para definir un contrato
-// que la clase PersonajeItachi debe cumplir. Por ejemplo,
-// podríamos crear una interfaz IPoderoso que tenga un método MostrarPoder()
-// y luego hacer que la clase PersonajeItachi implemente esa interfaz.
-
-public interface IPoderoso
-{
-    string MostrarPoder();
-}
-class PersonajeItachi : Persona, IPoderoso
-{
-    public string Nombre { get; } // Al no tener SET no pueden modificar el valor de esta propiedad desde fuera de la clase, solo se puede asignar en el constructor.
-    public string Poder { get; set; }
-    public PersonajeItachi( string nombre, string poder) : base(nombre)
+    public MyList(int limit)
     {
-        this.Nombre = "Itachi Uchija";
-        this.Poder = poder;
-    }
-    public string MostrarPoder() {
-        return this.Nombre + " tiene el poder de " + this.Poder;
+        _limit = limit;
+        _list = new List<T>();
     }
 
-    // Sobreescritura de métodos: Podemos sobrescribir el método Saludar() de la clase base Persona para que el personaje Itachi tenga un saludo personalizado.
-    public override string Saludar() {
-        return "Hola, soy " + this.Nombre + " y tengo el poder de " + this.Poder;
+    public void AddElement(T element)
+    {
+        if (_list.Count < _limit)
+        {
+            _list.Add(element);
+        }
+        else
+        {
+            Console.WriteLine("No se pueden agregar más elementos, límite alcanzado.");
+        }
     }
 
-    // Sobrecarga de métodos: Podemos crear múltiples métodos con el mismo nombre pero con diferentes parámetros para mostrar diferentes formas de saludar.
-    public string Saludar(string saludoPersonalizado) {
-        return saludoPersonalizado + ", soy " + this.Nombre + " y tengo el poder de " + this.Poder;
+    public string GetContent()
+    {
+        string content = "";
+
+        foreach (var element in _list)
+        {
+            content += element + ", ";
+        }
+
+        return content;
     }
 }
