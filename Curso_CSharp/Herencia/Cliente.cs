@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Herencia
 {
-    internal class Cliente : Persona
+    public class Cliente : Persona
     {
         // Atributos
         private int puntos;

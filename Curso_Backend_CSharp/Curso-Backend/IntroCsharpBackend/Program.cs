@@ -1,13 +1,31 @@
 ﻿
+/**
+ * CLASES Y OBJETOS
+ * CLASE: Es una plantailla o molde que define las caracteterísticas y comportamientos comunes de un conjunto de objetos.
+ * OBJETO : Es una intancia de una clase, es decir, un ejemplar concreto que posee las características y comportamientos definidos por la clase.
+ * 
+ * */
 
-var persona1 = new Persona("Emmanuel");
+// Formas de crear objetos en C# a partir de una clase:
+Persona persona1 = new Persona("Emmanuel");
+Persona persona2 = new Persona("Cristiano");
+var personaje1 = new PersonajeItachi("Itachi","Sharingan");
 
 persona1.Nombre = "Cristiano";
+var messagePersona = persona1.Saludar();
+Console.WriteLine(messagePersona);
+
+Console.WriteLine(personaje1.Nombre); // Esta propiedad solo tiene un getter, por lo que no se puede modificar desde fuera de la clase, solo se puede asignar en el constructor.
+//personaje1.Nombre = "Sasuke"; // Esto generará un error de compilación, ya que la propiedad Nombre no tiene un setter público.
+var messagePersonaje = personaje1.MostrarPoder();
+Console.WriteLine(messagePersonaje);
+Console.WriteLine(personaje1.Saludar());
+Console.WriteLine(personaje1.Saludar("JAJAJAJ! "));
 
 
-var message = persona1.Saludar();
 
-Console.WriteLine(message);
+
+
 
 
 class Persona 
@@ -20,7 +38,32 @@ class Persona
         Edad = 0;
     }
 
-    public string Saludar() {
-        return "Hola, " + this.Nombre + "!";
+    public virtual string Saludar() {
+        return "Hola, soy tu amigo " + this.Nombre + "!";
     }
+}
+
+class PersonajeItachi : Persona
+{
+    public string Nombre { get; } // Al no tener SET no pueden modificar el valor de esta propiedad desde fuera de la clase, solo se puede asignar en el constructor.
+    public string Poder { get; set; }
+    public PersonajeItachi( string nombre, string poder) : base(nombre)
+    {
+        this.Nombre = "Itachi Uchija";
+        this.Poder = poder;
+    }
+    public string MostrarPoder() {
+        return this.Nombre + " tiene el poder de " + this.Poder;
+    }
+
+    // Sobreescritura de métodos: Podemos sobrescribir el método Saludar() de la clase base Persona para que el personaje Itachi tenga un saludo personalizado.
+    public override string Saludar() {
+        return "Hola, soy " + this.Nombre + " y tengo el poder de " + this.Poder;
+    }
+
+    // Sobrecarga de métodos: Podemos crear múltiples métodos con el mismo nombre pero con diferentes parámetros para mostrar diferentes formas de saludar.
+    public string Saludar(string saludoPersonalizado) {
+        return saludoPersonalizado + ", soy " + this.Nombre + " y tengo el poder de " + this.Poder;
+    }
+
 }
