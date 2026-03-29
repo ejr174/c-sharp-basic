@@ -23,11 +23,6 @@ Console.WriteLine(personaje1.Saludar());
 Console.WriteLine(personaje1.Saludar("JAJAJAJ! "));
 
 
-
-
-
-
-
 class Persona 
 {
     public string Nombre { get; set; }
@@ -42,8 +37,16 @@ class Persona
         return "Hola, soy tu amigo " + this.Nombre + "!";
     }
 }
+// Interfaces: Podemos implementar una interfaz para definir un contrato
+// que la clase PersonajeItachi debe cumplir. Por ejemplo,
+// podríamos crear una interfaz IPoderoso que tenga un método MostrarPoder()
+// y luego hacer que la clase PersonajeItachi implemente esa interfaz.
 
-class PersonajeItachi : Persona
+public interface IPoderoso
+{
+    string MostrarPoder();
+}
+class PersonajeItachi : Persona, IPoderoso
 {
     public string Nombre { get; } // Al no tener SET no pueden modificar el valor de esta propiedad desde fuera de la clase, solo se puede asignar en el constructor.
     public string Poder { get; set; }
@@ -65,5 +68,4 @@ class PersonajeItachi : Persona
     public string Saludar(string saludoPersonalizado) {
         return saludoPersonalizado + ", soy " + this.Nombre + " y tengo el poder de " + this.Poder;
     }
-
 }
